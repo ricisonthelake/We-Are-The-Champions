@@ -1,0 +1,122 @@
+html, body {
+    background-color: #f5f5f5;
+    color: #ffffff;
+    font-family: 'josefin sans', sans-serif; 
+    font-family: 'Inter', sans-serif;}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 360px;
+height: auto;
+text-align: center;
+margin: auto;
+padding-top: 20px;
+background-color: #1B1924;
+color: #FFFFFF; 
+border: 5px solid #2b4b78;
+border-radius: 20px; 
+
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    padding: auto;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.endorsement_input_area {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 36px; */
+/*     max-width: 317px;
+ */}
+
+#endorsement_input_field {
+    /* border: 2px solid yellow; */
+    margin-bottom: 2px;
+    width: 275px;
+    max-height: 93px;
+    padding: 17px 0px 17px 14px ;
+    border-radius: 8px;
+    resize: none;
+    font: 15px bold Inter, sans-serif;
+    background-color: #444059;
+    color: #8F8F8F;
+}
+
+#publish_button {
+    margin-top: 10px;
+    width: 293px;
+    height: 61px;
+    border-radius: 8px;
+    font: 22px bold josefin sans, sans-serif;
+    background-color: #28A9F1;
+    color: #04131C;
+}
+
+#from_input_field, #to_input_field {
+    flex-direction: row;
+    margin: 8px 4px 0 2px;
+    align-items:center;
+    gap: 10px;
+    width: 122px;
+    height: 40px;
+    padding: 11px 9px 2px 9px;
+    border-radius: 8px;
+    font: 15px bold Inter, sans-serif;
+    background-color: #444059;
+    color: #8F8F8F;
+    text-align: center;
+    resize:none;
+}
+
+.address_area {
+        display: flex;
+        flex-direction: row;
+}
+
+
+.endorsements_area {
+    /* border: 2px solid red; */
+    margin: 0px 0 7px 0;
+}
+
+#endorsement_list {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    max-width: 275px;
+}
+.endorsement {
+        /* border: 2px solid green; */
+    width: 242px;
+    height: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 20px;
+    font-size: 14px;;
+    background-color: #ffffff;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    text-align: left;
+}
+
+ul li {
+    margin:  0  ;
+    color: #1B1924;
+}
+.toField, .fromField{
+    font-weight: bold;
+}
